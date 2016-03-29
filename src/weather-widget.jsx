@@ -8,8 +8,7 @@ class WeatherWidget extends React.Component {
     constructor( props ) {
         super( props );
 
-        let store = new WeatherStore();
-        console.log(store.getCurrentWeather());
+        console.log(WeatherStore.getCurrentWeather());
     }
 
     render() {
